@@ -12,7 +12,7 @@ Leveraging these data-driven insights allows for the identification of key demog
 ##**1.1 Project Plan** 
 ![image](https://github.com/user-attachments/assets/04e754a5-4a5f-4e85-998f-210eeff4f672)
 
-##1.2 Business Goals
+##**1.2 Business Goals**
 ### Objectives and Descriptions
 
 | **Objective**           | **Description**                                                                                                                                                                                     |
