@@ -143,10 +143,20 @@ With balanced class weights
 
 **Confusion Matrix**
 Inital
-![image](https://github.com/user-attachments/assets/025654c9-8ea1-45e9-a4b3-bce2244e543b) ![image](https://github.com/user-attachments/assets/c311a686-5063-419f-ac1a-5fe5f6b36d5b) ![image](https://github.com/user-attachments/assets/319c1cc5-c54c-49c9-93e6-b4c864f3d8d6)
+<p>
+  <img src="https://github.com/user-attachments/assets/025654c9-8ea1-45e9-a4b3-bce2244e543b" width="30%" />
+  <img src="https://github.com/user-attachments/assets/c311a686-5063-419f-ac1a-5fe5f6b36d5b" width="30%" />
+  <img src="https://github.com/user-attachments/assets/319c1cc5-c54c-49c9-93e6-b4c864f3d8d6" width="30%" />
+</p>
+
 
 With balance class weights
-![image](https://github.com/user-attachments/assets/badf00c6-ce83-4be3-9be3-4d4656d3b072)![image](https://github.com/user-attachments/assets/157925fb-7e0c-4fa7-ab69-7169e261a694)![image](https://github.com/user-attachments/assets/975d63a0-eb04-4074-ad54-62b2f45afb3e)
+<p>
+  <img src="https://github.com/user-attachments/assets/badf00c6-ce83-4be3-9be3-4d4656d3b072" width="30%" />
+  <img src="https://github.com/user-attachments/assets/157925fb-7e0c-4fa7-ab69-7169e261a694" width="30%" />
+  <img src="https://github.com/user-attachments/assets/975d63a0-eb04-4074-ad54-62b2f45afb3e" width="30%" />
+</p>
+
 
 | **Metric**         | **Random Forest (class balanced)** | **Random Forest** | **Logistic Regression (class balanced)** | **Logistic Regression** | **SVM (Class balanced)** | **SVM** |
 |--------------------|-----------------------------------|------------------|------------------------------------------|-------------------------|--------------------------|---------|
