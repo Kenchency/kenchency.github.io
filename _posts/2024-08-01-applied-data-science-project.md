@@ -4,12 +4,12 @@ author: Name
 title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
-## 1.Project Background
+## **1.Project Background**
 In a recent survey reported by Channel News Asia, it was found that the prevalence of mental health issues in Singapore is rising, with young adults having the highest proportion at 25.3%. In February 2024, Deputy Prime Minister Lawrence Wong passed a motion on advancing mental health, highlighting the growing importance of this issue both in Singapore and globally.
 As part of a support group initiative, this project aims to develop a platform focused on providing emotional support, fostering a sense of community, and ensuring anonymity for those seeking help. By applying machine learning models such as Support Vector Machine (SVM), Random Forest and conducting correlation analysis, this study seeks to predict the likelihood of depression and identify the most influential features. 
 Leveraging these data-driven insights allows for the identification of key demographic and behavioural factors contributing to depression risk, enabling tailored interventions and content optimization. The goal is to create a positive and engaging environment that empowers users to address their mental health challenges effectively.
 
-##1.1 Project Plan 
+##**1.1 Project Plan** 
 ![image](https://github.com/user-attachments/assets/04e754a5-4a5f-4e85-998f-210eeff4f672)
 
 ##1.2 Business Goals
@@ -24,7 +24,7 @@ Leveraging these data-driven insights allows for the identification of key demog
 | **Goal Measurement**    | As a measurement of our goal, we hope to see an increase in positive sentiment expressed by users' posts by 20%.                                                                               |
 
 
-##1.3 Busines Objectives
+## **1.3 Busines Objectives**
 ### Depression Prediction Objective
 
 | **Objective**                                | **Description**                                                                                                           |
@@ -40,13 +40,13 @@ Leveraging these data-driven insights allows for the identification of key demog
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **The Demographic /r/ForeverAlone Dataset** | Last year a redditor created a survey to collect demographic data on the subreddit /r/ForeverAlone. Since then they have deleted their account but they left behind their data set. | [Dataset URL](https://www.kaggle.com/datasets/kingburrito666/the-demographic-rforeveralone-dataset?resource=download) |
 
-## 2.Work Accomplished
+## **2.Work Accomplished**
 
 n this assignment, we conducted a comprehensive analysis of the /r/ForeverAlone dataset, initially collected by a Reddit user and later made available on Kaggle. Our primary objective was to assess the likelihood of depression among users based on their demographic and behavioral attributes. This involved several key steps: 1) Data Preparation, and 2) Detailed Exploration of the dataset, which included implementing various predictive models such as Support Vector Machines (SVM), Random Forest, and Logistic Regression.
 
 We 3) evaluated these models twice—first without and then with class weight balancing—focusing on crucial metrics such as precision, recall, and F1-score to gauge their performance. Additionally, we optimized the platform’s content based on user needs, fostered a positive online environment, and established measurable goals to enhance user sentiment. Overall, our efforts were aimed not only at accurately predicting depression but also at improving the user experience through targeted support and engagement strategies.
 
-### 2.1 Data Preparation
+### **2.1 Data Preparation**
 The below are the data preprocessing steps I completed prior to analysis:
 1. Checking for outliers
 
@@ -71,7 +71,7 @@ These visualizations provide insights into how age, income, and education level 
 Majority of the users are Caucasian at 72.1%, Asian 11.5% and Hispanic 6.8%
 7. Further Data Cleaning 
 
-### 3.Modelling
+### **3.Modelling**
 In this analysis, I will be evaluating and comparing the following three models then selecting the best.
 1)	Logistic Regression
 2)	Random Forest
@@ -87,7 +87,7 @@ The rationale for these two attempts is that the target variable might be imbala
 ![image](https://github.com/user-attachments/assets/363d0388-f0bd-45a0-a356-9e3f2630ae7b)
 ![image](https://github.com/user-attachments/assets/cf87b455-7543-4dee-9939-326faa79bac6)
 
-### 4.Evaluation
+### **4.Evaluation**
 
 | **Metric**        | **Class** | **Logistic Regression (class balanced)** | **Logistic Regression** | **Random Forest (class balanced)** | **Random Forest** | **SVM (Class Balanced)** | **Support Vector Machine** |
 |-------------------|-----------|-----------------------------------------|-------------------------|------------------------------------|-------------------|--------------------------|----------------------------|
@@ -166,7 +166,7 @@ With balanced class weights:
 6.	SVM: Provides a good balance but also has a high rate of missing positive cases.
 
 
-## 5.Recommendation and Analysis
+## **5.Recommendation and Analysis**
 
 | **Model**                 | **Recall (class balanced)** | **Recall** | **F1-Score (class balanced)** | **F1-Score** |
 |---------------------------|----------------------------|------------|-------------------------------|--------------|
@@ -221,7 +221,7 @@ Below are the Top 5 features for **Random Forest** and surprisingly there are 2 
 
 •	**Gen X** - often labelled as sandwich generation an article by yahoo finance indicated that GenXers are burnt out and stress about money another study by Ohio State university highlights that Gen X showed poorer physical health, higher levels of unhealthy behaviours such as alcohol use and smoking, and more depression. The “sandwich generation” often faces significant stress from both aging parents and their own families, contributing to mental health issues.
 
-**5.1. Recommendations 
+**5.1. Recommendations** 
 With our findings, please see below for the recommendations 
 | **Priority** | **Strategy**                                        | **Description**                                                                                                                                                                                                                   |
 |--------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ With our findings, please see below for the recommendations
 | 6            | Focus on Ethical and Inclusive AI Practices         | As the platform leverages machine learning to predict depression risk, it is essential to ensure that the models are developed and deployed in an ethical manner. Regularly assess the impact of the algorithms to prevent bias, ensure data privacy, and uphold user trust, especially when dealing with sensitive mental health information. |
 | 7            | Collaborate with Mental Health Professionals        | Consider collaborating with mental health professionals to validate the recommendations and resources provided on the platform. This partnership can also support users who may require professional intervention, ensuring that the platform serves as both a support and a gateway to clinical help if needed. |
 
-## 6.AI Ethics
+## **6.AI Ethics**
 "The ultimate goal of AI is to create machines that can think and act ethically, but the challenge lies in how we design these machines to align with human values." – Stuart Russell
 
 ![image](https://github.com/user-attachments/assets/54d28e9e-b249-40c6-b7f5-40aa9522c239)
@@ -287,7 +287,7 @@ We have identified the following risks and based on their likelihood(probability
 
 Understanding the above, we have come out with Mitigation strategies and also adopt Human-In-The-Loop(HITL) approach on areas such as Model recommendations, ethical oversights, user interaction and technical and operational oversight. 
 
-## 7.Measuring the business goal 
+## **7.Measuring the business goal** 
 ![image](https://github.com/user-attachments/assets/3568722a-6b0c-4a0f-83e3-68fe6c50f88f)
 After launching the online community, we initiated a thread to encourage members to share their daily experiences. Our analysis of these posts aims to measure overall sentiment, with a target of achieving at least a 20% positive sentiment rate.
 ![image](https://github.com/user-attachments/assets/2d394c61-5d60-47d5-a77c-bf2681b255e0)
@@ -326,7 +326,7 @@ The content is highly subjective in the early and middle parts, gradually moving
 
 We have successfully met our business goal, achieving a positive sentiment rate of 30%. The pie for neutral sentiment is the largest (50%), indicating that many of the data falls into this category. Overall, about 33% of the sentiments expressed by users are positive, reflecting a strong engagement and satisfaction with the community.
 
-## 8. Conclusion
+## **8. Conclusion**
 This assignment has successfully aligned the development of our mental health support platform with our core business objectives and goals while ensuring adherence to AI ethics and data privacy standards.
 
 Business Objectives and Goals: Our primary objective was to create a platform that provides robust emotional support and fosters a sense of community for individuals facing mental health challenges. By leveraging advanced machine learning models and correlation analysis, we aimed to accurately predict depression risk and identify key factors influencing mental health. Through our evaluation, we determined that the Random Forest model outperforms other models, including Support Vector Machines (SVM), in this context. Random Forest's superior performance in terms of recall and balanced metrics is particularly effective for identifying individuals at risk, aligning with our goal of maximizing recall to proactively address mental health issues. 
@@ -334,7 +334,7 @@ Business Objectives and Goals: Our primary objective was to create a platform th
 AI Ethics and Data Privacy: Our commitment to AI ethics is evident in our adherence to PDPA guidelines and AI Ethical guidelines. We have carefully considered fairness, transparency, and accountability throughout our development process. Data minimization and anonymization practices have been employed to protect user privacy and ensure that only necessary data is collected and used. Our approach integrates Human In the Loop (HITL) to balance automation with human oversight, thereby enhancing both ethical integrity and operational effectiveness.
 In conclusion, this assignment not only meets our business objectives by delivering a platform that is both effective and ethical but also demonstrates our commitment to responsible AI practices. The integration of advanced machine learning techniques with a strong ethical framework ensures that our platform remains both a valuable tool for mental health support and a model of ethical AI deployment.
 
-##9. Learning & Observation
+## **9. Learning & Observation**
 Despite addressing class imbalance by balancing class weights, the results remain suboptimal. This may be due to factors such as: 
 1)	Class imbalance alone is not the sole issue, other aspects of the data or model might also be affecting performance.
 2)	Overfitting or underfitting- The models may not be well-tuned to the complexity of the data.
@@ -346,5 +346,5 @@ Suggestions for improvements
 By addressing these aspects, I can enhance the model's performance and ensure that it aligns better with the business objectives and problems.
 
 
-## Source Codes and Datasets
+## **Source Codes and Datasets**
 ITD214 Project Code - https://github.com/Kenchency/ITD214_Proj
