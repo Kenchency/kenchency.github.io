@@ -9,10 +9,10 @@ In a recent survey reported by Channel News Asia, it was found that the prevalen
 As part of a support group initiative, this project aims to develop a platform focused on providing emotional support, fostering a sense of community, and ensuring anonymity for those seeking help. By applying machine learning models such as Support Vector Machine (SVM), Random Forest and conducting correlation analysis, this study seeks to predict the likelihood of depression and identify the most influential features. 
 Leveraging these data-driven insights allows for the identification of key demographic and behavioural factors contributing to depression risk, enabling tailored interventions and content optimization. The goal is to create a positive and engaging environment that empowers users to address their mental health challenges effectively.
 
-##**1.1 Project Plan** 
+## **1.1 Project Plan** 
 ![image](https://github.com/user-attachments/assets/04e754a5-4a5f-4e85-998f-210eeff4f672)
 
-##**1.2 Business Goals**
+## **1.2 Business Goals**
 ### Objectives and Descriptions
 
 | **Objective**           | **Description**                                                                                                                                                                                     |
@@ -32,7 +32,7 @@ Leveraging these data-driven insights allows for the identification of key demog
 | **Depression Prediction**                   | Determine the likelihood of depression in users based on their demographic and behavioral attributes.                      |
 
 
-##1.4 Dataset
+## 1.4 Dataset
 
 ### Dataset Information
 
